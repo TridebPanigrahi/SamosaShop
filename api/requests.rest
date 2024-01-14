@@ -1,0 +1,14 @@
+GET http://localhost:5000/samosaList
+
+###
+
+POST  http://localhost:5000/samosa/new
+Content-Type: application/json
+
+{
+    "name": "Pasta Samosa",
+    "color":"Red",
+    "size":"Medium",
+    "type":"Veg",
+    "status":true
+}
